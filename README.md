@@ -15,11 +15,11 @@ A square grid with many obstacles is assumed. Also, one house is considered as t
 
 <br />
 
-Let <span style="color: #FF0000">**G = (V, E)**</span> be a weighted graph, where **V** is the set of nodes (or vertices) and **E** is the set of edges connecting the nodes. Let s be the start node and t be the goal node. Let **h(n)** be the heuristic function that estimates the cost of the cheapest path from node **n** to the goal node **t**.
+Let **`G = (V, E)`** be a weighted graph, where **V** is the set of nodes (or vertices) and **E** is the set of edges connecting the nodes. Let s be the start node and t be the goal node. Let **h(n)** be the heuristic function that estimates the cost of the cheapest path from node **n** to the goal node **t**.
 
 The A* algorithm searches for a path from the start node **s** to the goal node **s** that minimizes the function **f(n)**, which is defined as:
 
-<span style="color: #FF0000">**f(n) = g(n) + h(n)**</span>
+**`f(n) = g(n) + h(n)`**
 
 where **g(n)** is the cost of the path from the start node **s** to node **n**.
 
